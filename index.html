@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <script>
+    window.onbeforeunload = function () {
+          window.scrollTo(0, 0);
+        };
+    </script>
+
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/style2.css">
+    <link rel="stylesheet" href="styles/style3.css">
+    <link rel="stylesheet" href="styles/carroussel.css">
+    <link rel="stylesheet" href="styles/resp.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="scripts/script.js" defer></script>
+    <script src="scripts/carroussel.js" defer></script>
+
+    <title>Accueil</title>
+  </head>
+<body>
+  <section aria-label="Newest Photos">
+    <div class="carousel" data-carousel>
+      <button class="carousel-button prev" data-carousel-button="prev">&#8656;</button>
+      <button class="carousel-button next" id="nexter" data-carousel-button="next">&#8658;</button>
+      <a href="index.html#presentation"><button class="carousel-point" >&#8659;</button></a>
+      <ul data-slides>
+        <li class="slide" data-active>
+          <img src="images/background.png" >
+        </li>
+        <li class="slide">
+          <img src="images/background2.png" >
+        <li class="slide">
+          <img src="images/background3.png" >
+        </li>
+      </ul>
+    </div>
+  </section>
+
+    <div class="nav-bar" id="myTopnav">
+      <div class="navigation">
+      <a href='#'>Accueil</a>
+      <a href="index.html#presentation">Marchand</a>
+      <a href="https://discord.gg/MfJXUsxgMB" target="_blank">Discord</a>
+      <a><button id="dark-mode-toggle" class="dark-mode-toggle" style="background-image:url(images/bg-dark.png);
+      background-size:cover; width:50px;"></button></a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+      </div>
+    </div>
+
+
+<!-- =======================================================Accueil========================================================== -->
+
+
+    <div class="first-container reveal-1">
+      <h1>BadCraft Wiki</h1>
+      <p class="text-fc reveal-2">Marchand wiki</p>
+    </div>
+
+    <!-- ====================================================Services============================================================= -->
+
+                  <div id="presentation" class="pres">
+                    <br><br><br>
+                    <p class="comp3">Marchand</p>
+                    <hr><br>
+                  </div>
+                  <div class="pres">
+                    <table class="test">
+                      <tr>
+                        <td>
+                          <p class="comp4">NOM</p>
+                        </td>
+                        <td>
+                          <p class="comp4">ITEMS</p>
+                        </td>
+                        <td>
+                          <p class="comp4">PRIX</p>
+                        </td>
+                      </tr>
+
+
+
+                      <tr>
+                        <td>
+                          <p class="comp5">Bâton de blaze</p>
+                        </td>
+                        <td>
+                          <img src="images/blaze.png" width="70px" height="70px">
+                        </td>
+                        <td>
+                          <p class="comp5">0.70</p>
+                        </td>
+                     </tr>
+                     <tr>
+                       <td>
+                         <p class="comp5">Block d'améthyste</p>
+                       </td>
+                       <td>
+                         <img src="images/blocamethyste.png" width="70px" height="70px">
+                       </td>
+                       <td>
+                         <p class="comp5">0.80</p>
+                       </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p class="comp5">Block d'algue</p>
+                      </td>
+                      <td>
+                        <img src="images/blocalgue.png" width="70px" height="70px">
+                      </td>
+                      <td>
+                        <p class="comp5">0.80</p>
+                      </td>
+                   </tr>
+                   <tr>
+                     <td>
+                       <p class="comp5">Bûche d'acacia</p>
+                     </td>
+                     <td>
+                       <img src="images/bucheacacia.png" width="70px" height="70px">
+                     </td>
+                     <td>
+                       <p class="comp5">1</p>
+                     </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p class="comp5">Cookie</p>
+                    </td>
+                    <td>
+                      <img src="images/cookie.png" width="70px" height="70px">
+                    </td>
+                    <td>
+                      <p class="comp5">1.60</p>
+                    </td>
+                 </tr>
+                 <tr>
+                   <td>
+                     <p class="comp5">Eclat d'améthyste</p>
+                   </td>
+                   <td>
+                     <img src="images/amethysteshard.png" width="70px" height="70px">
+                   </td>
+                   <td>
+                     <p class="comp5">2</p>
+                   </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p class="comp5">Ficelle</p>
+                  </td>
+                  <td>
+                    <img src="images/ficelle.png" width="70px" height="70px">
+                  </td>
+                  <td>
+                    <p class="comp5">0.50</p>
+                  </td>
+               </tr>
+                <tr>
+                  <td>
+                    <p class="comp5">Fiole de miel</p>
+                  </td>
+                  <td>
+                    <img src="images/fiolemiel.png" width="70px" height="70px">
+                  </td>
+                  <td>
+                    <p class="comp5">15</p>
+                  </td>
+               </tr>
+               <tr>
+                 <td>
+                   <p class="comp5">Glace</p>
+                 </td>
+                 <td>
+                   <img src="images/glace.png" width="70px" height="70px">
+                 </td>
+                 <td>
+                   <p class="comp5">0.30</p>
+                 </td>
+              </tr>
+              <tr>
+                <td>
+                  <p class="comp5">Graines de citrouille</p>
+                </td>
+                <td>
+                  <img src="images/grainecitrouille.png" width="70px" height="70px">
+                </td>
+                <td>
+                <p class="comp5">0.50</p>
+                </td>
+             </tr>
+             <tr>
+               <td>
+                 <p class="comp5">Graines de pastèque</p>
+               </td>
+               <td>
+                 <img src="images/grainepasteque.png" width="70px" height="70px">
+               </td>
+               <td>
+                <p class="comp5">0.50</p>
+               </td>
+            </tr>
+            <tr>
+              <td>
+                <p class="comp5">Laine orange</p>
+              </td>
+              <td>
+                <img src="images/laineorange.png" width="70px" height="70px">
+              </td>
+              <td>
+              <p class="comp5">0.80</p>
+              </td>
+           </tr>
+           <tr>
+             <td>
+               <p class="comp5">Laine gris claire</p>
+             </td>
+             <td>
+               <img src="images/lainegris.png" width="70px" height="70px">
+             </td>
+             <td>
+              <p class="comp5">0.80</p>
+             </td>
+          </tr>
+           <tr>
+             <td>
+               <p class="comp5">Laine vert claire</p>
+             </td>
+             <td>
+               <img src="images/laineverteclaire.png" width="70px" height="70px">
+             </td>
+             <td>
+               <p class="comp5">0.80</p>
+             </td>
+          </tr>
+          <tr>
+            <td>
+              <p class="comp5">Oeuf</p>
+            </td>
+            <td>
+              <img src="images/oeuf.png" width="70px" height="70px">
+            </td>
+            <td>
+            <p class="comp5">0.80</p>
+            </td>
+         </tr>
+         <tr>
+           <td>
+             <p class="comp5">Pousse de chêne</p>
+           </td>
+           <td>
+             <img src="images/poussechene.png" width="70px" height="70px">
+           </td>
+           <td>
+             <p class="comp5">0.80</p>
+           </td>
+        </tr>
+         <tr>
+           <td>
+             <p class="comp5">Rayon de miel</p>
+           </td>
+           <td>
+             <img src="images/rayonmiel.png" width="70px" height="70px">
+           </td>
+           <td>
+            <p class="comp5">1.60</p>
+           </td>
+        </tr>
+        <tr>
+          <td>
+            <p class="comp5">Verrues du nether</p>
+          </td>
+          <td>
+            <img src="images/verruenether.png" width="70px" height="70px">
+          </td>
+          <td>
+            <p class="comp5">1.60</p>
+          </td>
+       </tr>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                      <br><br><br><br><br><br><br><br><br>
+                      <div id="scroll_to_top" style="opacity: 0; transition: all 0.3s ease 0s;">
+                      <a href="#"><img src="images/scrolltop.png" alt=""></a>
+                      </div>
+<!-- =======================================================footer========================================================== -->
+
+  </body>
+<script src="scripts/darkmode.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script type="text/javascript">
+
+ function nexterr(){
+   $(document).ready(function(){
+   $('#nexter').trigger('click');
+   });
+   console.log('+1 slide');
+ }
+window.setInterval(nexterr, 10000);
+</script>
+<script>
+$(document).on('scroll',function (){
+    var TopDoc = $(window).scrollTop();
+    if(TopDoc < 200){
+        $('.nav-bar').css("background-color","rgba(0,0,0,0.2)");
+        $('.nav-bar').css("transition",".5s");
+    } else {
+        $('.nav-bar').css("background-color","rgba(0,0,0,1)");
+        $('.nav-bar').css("transition",".5s");
+    }
+
+    if(TopDoc < 400) {
+        $('#scroll_to_top').css("opacity","0");
+        $('#scroll_to_top').css("transition",".3s");
+    } else {
+        $('#scroll_to_top').css("opacity","1");
+        $('#scroll_to_top').css("transition",".3s");
+    }
+});
+</script>
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "nav-bar") {
+    x.className += " responsive";
+  } else {
+    x.className = "nav-bar";
+  }
+}
+</script>
+
+</html>
